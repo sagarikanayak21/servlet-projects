@@ -1,0 +1,11 @@
+<web-app>
+  	<servlet>
+  		<servlet-name>sn</servlet-name>
+  		<servlet-class>com.sn.submit.StudentDetailsServlet</servlet-class>
+  	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>sn</servlet-name>
+		<url-pattern>/StudentServlet</url-pattern>
+	</servlet-mapping>
+</web-app>
